@@ -1,0 +1,25 @@
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 02</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <h1>Ejercicio 02: </h1>
+  <div id="resultado" class="resultado"></div>
+  <script src="ejercicio02.js"></script>
+<script>
+let valor = 20;
+
+if (valor === 100) {
+  document.getElementById("resultado").innerText = " El valor es 100.";
+  document.getElementById("resultado").classList.add("ok");
+} else {
+  document.getElementById("resultado").innerText = " El valor NO es 100.";
+  document.getElementById("resultado").classList.add("error");
+}
+
+</script>
+</body>
+</html>
